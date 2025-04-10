@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="pomodoro-app">
+    <!-- Break and Session labels -->
+    <div id="break-label">Break Length</div>
+    <div id="break-length">5</div>
+    <button id="break-decrement">-</button>
+    <button id="break-increment">+</button>
+
+    <div id="session-label">Session Length</div>
+    <div id="session-length">25</div>
+    <button id="session-decrement">-</button>
+    <button id="session-increment">+</button>
+
+    <!-- Timer Section -->
+    <div id="timer-label">Session</div>
+    <div id="time-left">25:00</div>
+    
+    <!-- Control Buttons -->
+    <button id="start_stop">Start/Stop</button>
+    <button id="reset">Reset</button>
+
+    <!-- Beep Sound -->
+    <audio id="beep" src="https://www.soundjay.com/button/beep-07.wav" preload="auto"></audio>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
